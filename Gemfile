@@ -32,7 +32,6 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-# Theme
-gem "minimal-mistakes-jekyll"
-
+# Added for theme
 gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins

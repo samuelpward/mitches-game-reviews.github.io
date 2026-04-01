@@ -32,7 +32,7 @@ github_username:  example
 
 # Build settings
 #theme: minima
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-feed
 
